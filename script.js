@@ -1,4 +1,4 @@
-let randNumber = Math.floor(Math.random() * 100);
+let randNumber = Math.floor(Math.random()*100);
 let guessField = document.querySelector("#guessField");
 let submitBtn = document.querySelector("#subt");
 let resultDisplay = document.querySelector(".resultDisplay");
